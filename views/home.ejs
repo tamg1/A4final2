@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electric Vehicle Solutions</title>
+  <link rel="stylesheet" href="/css/custom.css">
+  <link rel="stylesheet" href="/css/main.css" />
+</head>
+
+<body>
+
+  <%- include('partials/navbar', {page: '/home' }) %>
+
+
+
+    <div class="container mx-auto px-3 py-7">
+
+      <div class="hero bg-base-200 py-10 mb-12 rounded-lg">
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Hello there</h1>
+            <p class="py-6">
+              Check out these wonderful projects aiming to help our environment!
+            </p>
+            <a href="/solutions/projects" class="btn btn-primary">
+              See projects!
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img src="https://drawdown.org/sites/default/files/solutions2020/solution_cars03.jpg" alt="Project 1" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Waymo</h2>
+            <p>Google's Waymo is building eco-friendly cabs to reduce emissions.</p>
+            <div class="card-actions justify-end">
+              <a href="/solutions/projects/1" class="btn btn-outline btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://drawdown.org/sites/default/files/styles/solution_thumbnail_580x380/public/solutions2020/solution_bicycle_infrastructure.jpg?itok=-i6iJ-2A"
+              alt="Project 13" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Tesla Robotaxi</h2>
+            <p>Tesla is building robotaxis to launch across the world.</p>
+            <div class="card-actions justify-end">
+              <a href="/solutions/projects/13" class="btn btn-outline btn-primary">More Info</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="card bg-base-100 shadow-xl">
+          <figure>
+            <img
+              src="https://drawdown.org/sites/default/files/styles/solution_thumbnail_580x380/public/solutions2020/solution_carpooling.jpg"
+              alt="Project 26" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title">Uber</h2>
+            <p>Uber is launching cabs as well and reducing C02 emissions with rideshare.</p>
+            <div class="card-actions justify-end">
+              <a href="/solutions/projects/26" class="btn btn-outline btn-primary"> More Info</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</body>
+
+</html>
